@@ -19,36 +19,93 @@ a {
   text-decoration: none;
 }
 body {
-  background: #b2b0ab;
+  background: #cccbc8;
 }
 .site-wrapper {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-.header--outer {
+.footer--outer {
+  background-color: #000;
   display: flex;
   justify-content: center;
+  min-height: 200px;
   width: 100%;
-  min-height: 300px;
+  flex-direction: column;
+  position: relative;
+}
+.footer--inner {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  align-items: center;
+}
+.footer__email {
+  color: #fff;
+  font: 20px 'Roboto-Thin', sans-serif;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+.footer__number {
+  color: #fff;
+  font: 17px 'Roboto-Light', sans-serif;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+.footer__links {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.social__link {
+  margin: 0 10px;
+  color: #b2b0ab;
+}
+.social__link:hover {
+  color: #4d2a41;
+}
+.footer__copyright {
+  background-color: rgba(100,100,100,0.25);
+  color: #717171;
+  font: 12px 'Roboto-Regular', sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+  position: absolute;
+  bottom: 0;
+}
+.header--outer {
   background-size: 100%;
+  display: flex;
+  justify-content: center;
+  min-height: 300px;
+  width: 100%;
 }
 .header--inner {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 .header__intro {
-  font: 50px 'Roboto-Thin', sans-serif;
   color: #fff;
+  font: 50px 'Roboto-Thin', sans-serif;
   line-height: 60px;
+  margin-bottom: 10px;
 }
 .header__text {
-  font: 30px 'Roboto-Regular', sans-serif;
   color: #633653;
-  text-transform: uppercase;
+  font: 30px 'Roboto-Regular', sans-serif;
   line-height: 40px;
+  text-transform: uppercase;
+}
+.section__title {
+  color: #633653;
+  font: 20px 'PermanentMarker-Regular', cursive;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
 }
 @font-face {
   font-family: 'Roboto-Bold';
@@ -82,6 +139,12 @@ body {
   font-family: 'Roboto-Thin';
   src: url("../assets/fonts/Roboto-Thin.ttf");
   src: url("../assets/fonts/Roboto-Thin.woff");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'PermanentMarker-Regular';
+  src: url("../assets/fonts/PermanentMarker-Regular.ttf");
   font-style: normal;
   font-weight: normal;
 }
