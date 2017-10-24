@@ -29,29 +29,29 @@ body {
 .footer--outer {
   background-color: #000;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   min-height: 200px;
-  width: 100%;
-  flex-direction: column;
   position: relative;
+  width: 100%;
 }
 .footer--inner {
+  align-items: center;
   display: flex;
   flex-direction: column;
   padding: 20px 0;
-  align-items: center;
 }
 .footer__email {
   color: #fff;
   font: 20px 'Roboto-Thin', sans-serif;
-  margin-bottom: 10px;
   letter-spacing: 1px;
+  margin-bottom: 10px;
 }
 .footer__number {
   color: #fff;
   font: 17px 'Roboto-Light', sans-serif;
-  margin-bottom: 10px;
   letter-spacing: 1px;
+  margin-bottom: 10px;
 }
 .footer__links {
   display: flex;
@@ -67,14 +67,14 @@ body {
 }
 .footer__copyright {
   background-color: rgba(100,100,100,0.25);
+  bottom: 0;
   color: #717171;
   font: 12px 'Roboto-Regular', sans-serif;
-  width: 100%;
   display: flex;
   justify-content: center;
   padding: 5px 0;
   position: absolute;
-  bottom: 0;
+  width: 100%;
 }
 .header--outer {
   background-size: 100%;
