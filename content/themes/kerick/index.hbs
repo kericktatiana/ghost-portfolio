@@ -6,3 +6,51 @@
 		<div class="header__text">A Front-end Designer</div>
 	</div>
 </header>
+
+
+<div class="main__content">
+	{{!-- about --}}
+	<div class="main__section section--outer">
+		<div class="section--inner">
+			<div class="section__title">Who I am</div>
+			<p class="about__tagline">
+				front-end designer with technical experience
+			</p>
+			<p class="about__text">
+				When Myspace was still cool, I would spend hours teaching myself basic html and css to perfect a new layout. 
+			</p>
+			<p class="about__text">
+				Today I make a profession out of exactly that. Keeping up to date with the latest trends in UI and best UX practices. I put myself and energy into enhancing experiences with design.
+			</p>
+			<p class="about__text about__text--last">
+				With a background of being a front-end/full stack developer, I use my technical experience to design and develop interfaces with the developer in mind. I focus on keeping CSS components clean and reusable by following the latest methodologies.
+			</p>
+
+			<div class="button__row">
+				<button class="button--outline button--first">
+					Resume
+				</button>
+
+				<button class="button--full">
+					Contact Me
+				</button>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="main__section section--outer">
+		<div class="section--inner">
+			<div class="section__title">My Work</div>
+
+			<div class="work__feed">
+				{{#foreach posts}}
+
+    	            {{> "post-card"}}
+
+	            {{/foreach}}
+			</div>
+		</div>
+	</div>
+
+</div>
