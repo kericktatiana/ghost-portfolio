@@ -27,8 +27,8 @@ body {
   width: 100%;
 }
 button {
-  border: none;
   background-color: transparent;
+  border: none;
 }
 button:focus {
   outline: none;
@@ -42,8 +42,8 @@ button:focus {
 }
 .button--outline {
   border: 2px solid #9ebcb7;
-  font: 12px 'Roboto-Regular', sans-serif;
   color: #2c3f3d;
+  font: 12px 'Roboto-Regular', sans-serif;
   height: 30px;
   letter-spacing: 0.032em;
   padding: 6px 13px;
@@ -56,14 +56,14 @@ button:focus {
   transition: background-color 0.75s ease 0s;
 }
 .button--outline:hover {
-  cursor: pointer;
   background-color: #9ebcb7;
+  cursor: pointer;
 }
 .button--full {
-  border: none;
   background-color: #9ebcb7;
-  font: 12px 'Roboto-Regular', sans-serif;
+  border: none;
   color: #2c3f3d;
+  font: 12px 'Roboto-Regular', sans-serif;
   height: 30px;
   letter-spacing: 0.032em;
   padding: 6px 13px;
@@ -112,8 +112,8 @@ button:focus {
   margin-bottom: 20px;
 }
 .social__link {
-  margin: 0 10px;
   color: #b2b0ab;
+  margin: 0 10px;
 }
 .social__link:hover {
   color: #4d2a41;
@@ -132,10 +132,10 @@ button:focus {
 .header--outer {
   background-size: 100%;
   display: flex;
-  min-height: 300px;
-  width: 100%;
   flex-direction: column;
+  min-height: 300px;
   padding-top: 10px;
+  width: 100%;
 }
 .header--inner {
   align-items: center;
@@ -156,10 +156,10 @@ button:focus {
   text-transform: uppercase;
 }
 .site-nav {
-  width: 100%;
   align-items: center;
-  padding: 0 20px;
   margin-bottom: 30px;
+  padding: 0 20px;
+  width: 100%;
 }
 .site-nav ul {
   display: flex;
@@ -234,17 +234,15 @@ button:focus {
 .work-feed__wrapper {
   display: flex;
   flex-direction: row;
-  margin-bottom: 40px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0 10px 40px 10px;
 }
 .work-feed__link {
   color: #759f98;
-  font: 14px 'Roboto-Regular', sans-serif;
   display: flex;
+  font: 14px 'Roboto-Regular', sans-serif;
   justify-content: flex-end;
-  text-transform: uppercase;
   padding: 0 20px;
+  text-transform: uppercase;
   -webkit-transition: color 0.75s ease 0s;
   -moz-transition: color 0.75s ease 0s;
   -o-transition: color 0.75s ease 0s;
@@ -257,19 +255,19 @@ button:focus {
 .post-card__wrapper {
   display: flex;
   flex-direction: column;
-  width: 33.333333%;
   margin-left: 10px;
   margin-right: 10px;
+  width: 33.333333%;
 }
 .post-card__image-wrapper {
-  position: relative;
-  overflow: hidden;
   margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
 }
 .post-card__image {
-  width: 100%;
-  height: 250px;
   background-size: cover;
+  height: 250px;
+  width: 100%;
 }
 .post-card__title {
   font: 14px 'Roboto-Bold', sans-serif;
