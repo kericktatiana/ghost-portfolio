@@ -11,7 +11,7 @@
 <div class="main__content">
 	{{!-- about --}}
 	<div class="main__section section--outer">
-		<div class="section--inner">
+		<div class="section--inner section--about">
 			<div class="section__title">Who I am</div>
 			<p class="about__tagline">
 				front-end designer with technical experience
@@ -41,15 +41,19 @@
 
 	<div class="main__section section--outer">
 		<div class="section--inner">
-			<div class="section__title">My Work</div>
+			<div class="section__title section__title--work">My Work</div>
 
-			<div class="work__feed">
-				{{#foreach posts}}
+			<div class="work-feed__wrapper">
+				{{#foreach posts limit="3"}}
 
     	            {{> "post-card"}}
 
 	            {{/foreach}}
 			</div>
+
+			<a class="work-feed__link">
+				See More >>
+			</a>
 		</div>
 	</div>
 

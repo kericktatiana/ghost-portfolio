@@ -7,13 +7,11 @@
 	
 .section--outer
 	display flex
-	justify-content center
 	margin-bottom 80px
 	
 .section--inner
 	display flex
 	flex-direction column
-	align-items center
 
 .section__title
 	color $purple10
@@ -25,6 +23,9 @@
 /* individual sections
 ------------------------------------------*/
 //about
+.section--about
+	align-items center
+
 .about__tagline
 	color $purple
 	font 14px $bold
@@ -43,3 +44,9 @@
 
 .about__text--last
 	margin-bottom 40px
+	
+
+
+// work
+.section__title--work
+	text-align center
