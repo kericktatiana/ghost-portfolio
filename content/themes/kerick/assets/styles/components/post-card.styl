@@ -2,29 +2,36 @@
 	display flex
 	flex-direction row
 	margin-bottom 40px
+	margin-left 10px
+	margin-right 10px
 	
 .work-feed__link
 	color $green100
-	font 12px $regular
+	font 14px $regular
 	display flex
 	justify-content flex-end
 	text-transform uppercase
-	padding 0 10px
+	padding 0 20px
+	
+	-webkit-transition color 0.75s ease 0s
+	-moz-transition color 0.75s ease 0s
+	-o-transition color 0.75s ease 0s
+	transition color 0.75s ease 0
 	&:hover 
 		color $green200
 		cursor pointer
-		text-decoration underline
 	
 .post-card__wrapper
 	display flex
 	flex-direction column
 	width 33.333333%
-	padding 0 10px
+	margin-left 10px
+	margin-right 10px
 	
 .post-card__image-wrapper
 	position relative
 	overflow hidden
-	margin-bottom 20px
+	margin-bottom 10px
 	
 .post-card__image
 	width 100%
@@ -36,6 +43,11 @@
 	color $green100
 	text-align center
 	text-transform uppercase
+
+	-webkit-transition color 0.75s ease 0s
+	-moz-transition color 0.75s ease 0s
+	-o-transition color 0.75s ease 0s
+	transition color 0.75s ease 0
 	
 .post-card__link-wrapper&:hover
 	cursor pointer

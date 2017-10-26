@@ -132,9 +132,10 @@ button:focus {
 .header--outer {
   background-size: 100%;
   display: flex;
-  justify-content: center;
   min-height: 300px;
   width: 100%;
+  flex-direction: column;
+  padding-top: 10px;
 }
 .header--inner {
   align-items: center;
@@ -153,6 +154,51 @@ button:focus {
   font: 30px 'Roboto-Regular', sans-serif;
   line-height: 40px;
   text-transform: uppercase;
+}
+.site-nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+.site-nav--left {
+  width: 50%;
+}
+.site-nav--right {
+  width: 50%;
+}
+.site-nav__logo {
+  width: 10%;
+}
+.site-nav--right {
+  display: flex;
+  justify-content: flex-end;
+}
+.site-nav--right ul {
+  display: flex;
+  flex-direction: row;
+}
+.site-nav--right li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.site-nav--right li:last-child {
+  margin-right: 0;
+}
+.site-nav--right a {
+  color: #9ebcb7;
+  font: 14px 'Roboto-Regular', sans-serif;
+  letter-spacing: 0.032em;
+  text-transform: uppercase;
+  -webkit-transition: color 0.75s ease 0s;
+  -moz-transition: color 0.75s ease 0s;
+  -o-transition: color 0.75s ease 0s;
+  transition: color 0.75s ease 0;
+}
+.site-nav--right a:hover {
+  color: #2c3f3d;
 }
 .main__content {
   display: flex;
@@ -203,30 +249,36 @@ button:focus {
   display: flex;
   flex-direction: row;
   margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .work-feed__link {
   color: #759f98;
-  font: 12px 'Roboto-Regular', sans-serif;
+  font: 14px 'Roboto-Regular', sans-serif;
   display: flex;
   justify-content: flex-end;
   text-transform: uppercase;
-  padding: 0 10px;
+  padding: 0 20px;
+  -webkit-transition: color 0.75s ease 0s;
+  -moz-transition: color 0.75s ease 0s;
+  -o-transition: color 0.75s ease 0s;
+  transition: color 0.75s ease 0;
 }
 .work-feed__link:hover {
   color: #2c3f3d;
   cursor: pointer;
-  text-decoration: underline;
 }
 .post-card__wrapper {
   display: flex;
   flex-direction: column;
   width: 33.333333%;
-  padding: 0 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .post-card__image-wrapper {
   position: relative;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .post-card__image {
   width: 100%;
@@ -238,6 +290,10 @@ button:focus {
   color: #759f98;
   text-align: center;
   text-transform: uppercase;
+  -webkit-transition: color 0.75s ease 0s;
+  -moz-transition: color 0.75s ease 0s;
+  -o-transition: color 0.75s ease 0s;
+  transition: color 0.75s ease 0;
 }
 .post-card__link-wrapper:hover {
   cursor: pointer;
@@ -247,42 +303,42 @@ button:focus {
 }
 @font-face {
   font-family: 'Roboto-Bold';
-  src: url("../assets/fonts/Roboto-Bold.ttf");
-  src: url("../assets/fonts/Roboto-Bold.woff");
+  src: url("../fonts/Roboto-Bold.ttf");
+  src: url("../fonts/Roboto-Bold.woff");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: 'Roboto-Light';
-  src: url("../assets/fonts/Roboto-Light.ttf");
-  src: url("../assets/fonts/Roboto-Light.woff");
+  src: url("../fonts/Roboto-Light.ttf");
+  src: url("..fonts/Roboto-Light.woff");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: 'Roboto-Medium';
-  src: url("../assets/fonts/Roboto-Medium.ttf");
-  src: url("../assets/fonts/Roboto-Medium.woff");
+  src: url("../fonts/Roboto-Medium.ttf");
+  src: url("../fonts/Roboto-Medium.woff");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: 'Roboto-Regular';
-  src: url("../assets/fonts/Roboto-Regular.ttf");
-  src: url("../assets/fonts/Roboto-Regular.woff");
+  src: url("../fonts/Roboto-Regular.ttf");
+  src: url("../fonts/Roboto-Regular.woff");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: 'Roboto-Thin';
-  src: url("../assets/fonts/Roboto-Thin.ttf");
-  src: url("../assets/fonts/Roboto-Thin.woff");
+  src: url("../fonts/Roboto-Thin.ttf");
+  src: url("../fonts/Roboto-Thin.woff");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: 'PermanentMarker-Regular';
-  src: url("../assets/fonts/PermanentMarker-Regular.ttf");
+  src: url("../fonts/PermanentMarker-Regular.ttf");
   font-style: normal;
   font-weight: normal;
 }

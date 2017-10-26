@@ -1,6 +1,7 @@
 {{!< default}}
 
 <header class="header--outer {{#if @blog.cover_image}}" style="background-image: url({{@blog.cover_image}}){{else}}no-cover{{/if}}">
+	{{> "site-nav"}}
 	<div class="header--inner">
 		<div class="header__intro">Hey, I'm Tatiana</div>
 		<div class="header__text">A Front-end Designer</div>
@@ -51,8 +52,9 @@
 	            {{/foreach}}
 			</div>
 
-			<a class="work-feed__link">
-				See More >>
+			<a class="work-feed__link"
+			   href="/portfolio">
+				More work >>
 			</a>
 		</div>
 	</div>
