@@ -42,7 +42,7 @@
 
 	<div class="main__section section--outer">
 		<div class="section--inner">
-			<div class="section__title section__title--work">My Work</div>
+			<div class="section__title">My work</div>
 
 			<div class="posts__wrapper">
 				{{#foreach posts limit="3"}}
@@ -52,10 +52,12 @@
 	            {{/foreach}}
 			</div>
 
-			<a class="portfolio__link"
+			<div class="link__wrapper">
+				<a class="link__more"
 			   href="/portfolio">
 				More work >>
 			</a>
+			</div>
 		</div>
 	</div>
 

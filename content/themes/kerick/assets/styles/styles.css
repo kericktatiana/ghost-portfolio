@@ -79,6 +79,54 @@ button:focus {
   cursor: pointer;
   background-color: #759f98;
 }
+.button--contact {
+  width: 100%;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+  padding: 0 25%;
+}
+.contact__input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.contact__label {
+  color: #633653;
+  font: 16px 'Roboto-Regular', sans-serif;
+  margin-bottom: 10px;
+}
+.contact__input {
+  border: none;
+  color: #2c3f3d;
+  display: block;
+  font: 12px 'Roboto-Regular', sans-serif;
+  height: 30px;
+  letter-spacing: 0.032em;
+  padding: 1px 5px 0 5px;
+  width: 100%;
+}
+.contact__input:focus {
+  outline: none;
+  outline-offset: 2px;
+  padding-top: 1.8px;
+}
+.contact__input--textarea {
+  border: none;
+  color: #2c3f3d;
+  display: block;
+  font: 12px 'Roboto-Regular', sans-serif;
+  letter-spacing: 0.032em;
+  padding: 5px 5px 0 5px;
+  resize: none;
+  width: 100%;
+}
+.contact__input--textarea:focus {
+  outline: none;
+  outline-offset: 2px;
+}
 .footer--outer {
   background-color: #000;
   display: flex;
@@ -189,6 +237,7 @@ button:focus {
 .main__content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .main__section {
   margin: 20px 0;
@@ -198,6 +247,7 @@ button:focus {
   margin-bottom: 80px;
 }
 .section--inner {
+  align-items: center;
   display: flex;
   flex-direction: column;
 }
@@ -206,9 +256,6 @@ button:focus {
   font: 20px 'PermanentMarker-Regular', cursive;
   letter-spacing: 1px;
   margin-bottom: 20px;
-}
-.section--about {
-  align-items: center;
 }
 .about__tagline {
   color: #4d2a41;
@@ -228,9 +275,6 @@ button:focus {
 .about__text--last {
   margin-bottom: 40px;
 }
-.section__title--work {
-  text-align: center;
-}
 .posts__wrapper {
   display: flex;
   flex-direction: row;
@@ -243,7 +287,11 @@ button:focus {
   justify-content: center;
   margin: 0 10px 20px 10px;
 }
-.portfolio__link {
+.link__wrapper {
+  justify-content: flex-end;
+  width: 100%;
+}
+.link__more {
   color: #759f98;
   display: flex;
   font: 14px 'Roboto-Regular', sans-serif;
@@ -255,15 +303,15 @@ button:focus {
   -o-transition: color 0.75s ease 0s;
   transition: color 0.75s ease 0;
 }
-.portfolio__link:hover {
+.link__more:hover {
   color: #2c3f3d;
   cursor: pointer;
 }
 .post-card__wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin: 0 10px 40px 10px;
-  width: 33.333333%;
 }
 .post-card__image-wrapper {
   margin-bottom: 10px;
@@ -273,7 +321,7 @@ button:focus {
 .post-card__image {
   background-size: cover;
   height: 250px;
-  width: 100%;
+  width: 350px;
 }
 .post-card__title {
   font: 14px 'Roboto-Bold', sans-serif;
@@ -302,6 +350,24 @@ button:focus {
   justify-content: center;
   letter-spacing: 1px;
   margin-bottom: 30px;
+}
+.page__title--xl {
+  color: #633653;
+  display: flex;
+  font: 50px 'PermanentMarker-Regular', cursive;
+  justify-content: center;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.thankyou__text {
+  color: #2c3f3d;
+  display: flex;
+  font: 25px 'Roboto-Regular', sans-serif;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.page-thankyou footer {
+  display: none;
 }
 @font-face {
   font-family: 'Roboto-Bold';
