@@ -157,8 +157,8 @@ button:focus {
 }
 .site-nav {
   align-items: center;
-  margin-bottom: 30px;
-  padding: 0 20px;
+  margin-bottom: 40px;
+  padding: 10px 20px;
   width: 100%;
 }
 .site-nav ul {
@@ -174,7 +174,7 @@ button:focus {
   margin-right: 0;
 }
 .site-nav a {
-  color: #9ebcb7;
+  color: #759f98;
   font: 14px 'Roboto-Regular', sans-serif;
   letter-spacing: 0.032em;
   text-transform: uppercase;
@@ -204,8 +204,8 @@ button:focus {
 .section__title {
   color: #633653;
   font: 20px 'PermanentMarker-Regular', cursive;
-  margin-bottom: 20px;
   letter-spacing: 1px;
+  margin-bottom: 20px;
 }
 .section--about {
   align-items: center;
@@ -231,12 +231,19 @@ button:focus {
 .section__title--work {
   text-align: center;
 }
-.work-feed__wrapper {
+.posts__wrapper {
   display: flex;
   flex-direction: row;
-  margin: 0 10px 40px 10px;
+  margin: 0 10px 20px 10px;
 }
-.work-feed__link {
+.posts__wrapper--portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 10px 20px 10px;
+}
+.portfolio__link {
   color: #759f98;
   display: flex;
   font: 14px 'Roboto-Regular', sans-serif;
@@ -248,15 +255,14 @@ button:focus {
   -o-transition: color 0.75s ease 0s;
   transition: color 0.75s ease 0;
 }
-.work-feed__link:hover {
+.portfolio__link:hover {
   color: #2c3f3d;
   cursor: pointer;
 }
 .post-card__wrapper {
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0 10px 40px 10px;
   width: 33.333333%;
 }
 .post-card__image-wrapper {
@@ -285,6 +291,18 @@ button:focus {
 .post-card__link-wrapper:hover .post-card__title {
   color: #2c3f3d;
 }
+.page__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.page__title {
+  color: #633653;
+  display: flex;
+  font: 25px 'PermanentMarker-Regular', cursive;
+  justify-content: center;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
 @font-face {
   font-family: 'Roboto-Bold';
   src: url("../fonts/Roboto-Bold.ttf");
@@ -295,7 +313,7 @@ button:focus {
 @font-face {
   font-family: 'Roboto-Light';
   src: url("../fonts/Roboto-Light.ttf");
-  src: url("..fonts/Roboto-Light.woff");
+  src: url("../fonts/Roboto-Light.woff");
   font-style: normal;
   font-weight: normal;
 }
