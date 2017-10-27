@@ -359,15 +359,39 @@ button:focus {
   letter-spacing: 1px;
   margin-bottom: 30px;
 }
-.thankyou__text {
+.page__text--lg {
   color: #2c3f3d;
   display: flex;
   font: 25px 'Roboto-Regular', sans-serif;
   justify-content: center;
   margin-bottom: 80px;
 }
+.page__text--lg-link {
+  color: #759f98;
+  display: flex;
+  font: 25px 'Roboto-Regular', sans-serif;
+  justify-content: center;
+  margin-bottom: 40px;
+  -webkit-transition: color 0.75s ease 0s;
+  -moz-transition: color 0.75s ease 0s;
+  -o-transition: color 0.75s ease 0s;
+  transition: color 0.75s ease 0;
+}
+.page__text--lg-link:hover {
+  color: #2c3f3d;
+}
 .page-thankyou footer {
   display: none;
+}
+.error-template {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.error__image {
+  display: flex;
+  width: 50%;
+  height: 50%;
 }
 @font-face {
   font-family: 'Roboto-Bold';

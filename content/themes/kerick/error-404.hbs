@@ -1,0 +1,25 @@
+{{!--
+This error template is used for all 404 errors, which might occur on your site.
+It's a good idea to keep this template as minimal as possible in terms of both file size and complexity.
+--}}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>{{meta_title}}</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="{{asset "styles/styles.css"}}" />
+</head>
+<body class="error-template">
+
+    <div class="page__title--xl">404 - NOT FOUND</div>
+
+    <a class="page__text--lg-link" href="http://localhost:2368/">HOME</a>
+
+    <img class="error__image" src="/assets/images/404.png">
+
+</body>
+</html>
