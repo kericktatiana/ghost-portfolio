@@ -317,11 +317,15 @@ button:focus {
   margin-bottom: 10px;
   overflow: hidden;
   position: relative;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .post-card__image {
-  background-size: cover;
-  height: 250px;
-  width: 350px;
+  width: 130%;
+  background: center center;
 }
 .post-card__title {
   font: 14px 'Roboto-Bold', sans-serif;
