@@ -321,7 +321,7 @@ button:focus {
 .post-card__image-wrapper {
   align-items: center;
   display: flex;
-  height: 250px;
+  height: 200px;
   justify-content: center;
   margin-bottom: 10px;
   overflow: hidden;
@@ -329,7 +329,7 @@ button:focus {
   width: 350px;
 }
 .post-card__image {
-  transform: scale(1.3);
+  width: 130%;
 }
 .post-card__title {
   font: 14px 'Roboto-Bold', sans-serif;
