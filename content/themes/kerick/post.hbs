@@ -1,0 +1,19 @@
+{{!< default}}
+
+{{> "site-nav"}}
+
+{{#post}}
+
+<div class="post__wrapper">
+	<div class="post__header"
+		 style="background-image: url({{feature_image}})">
+		 <div class="post__title">{{title}}</div>
+	</div>
+
+    <div class="post__content">
+        {{content}}
+    </div>
+</div>
+
+
+{{/post}}

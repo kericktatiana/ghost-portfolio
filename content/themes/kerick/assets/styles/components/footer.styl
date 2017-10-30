@@ -1,0 +1,51 @@
+.footer--outer
+	background-color $black
+	display flex
+	flex-direction column
+	justify-content center
+	min-height 200px
+	position relative
+	width 100%
+.footer--inner
+	align-items center
+	display flex
+	flex-direction column
+	padding 20px 0
+
+.footer__email
+	color $white
+	font 20px $thin
+	letter-spacing 1px
+	margin-bottom 10px
+.footer__number
+	color $white
+	font 17px $light
+	letter-spacing 1px
+	margin-bottom 10px
+	
+.footer__links
+	display flex
+	flex-direction row
+	margin-bottom 20px
+.social__link
+	color $grey
+	margin 0 10px
+	
+	-webkit-transition color 0.75s ease 0s
+	-moz-transition color 0.75s ease 0s
+	-o-transition color 0.75s ease 0s
+	transition color 0.75s ease 0s
+	&:hover
+		color $purple
+
+
+.footer__copyright
+	background-color rgba(100, 100, 100, .25)
+	bottom 0 
+	color $grey100
+	font 12px $regular
+	display flex
+	justify-content center
+	padding 5px 0 
+	position absolute
+	width 100%

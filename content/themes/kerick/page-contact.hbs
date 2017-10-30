@@ -1,0 +1,29 @@
+{{!< default}}
+
+{{> "site-nav"}}
+
+<div class="page__wrapper">
+	<div class="page__title">Contact Me</div>
+
+	<form class="contact__form"
+		  action="https://formspree.io/kericktatiana@gmail.com"
+		  method="POST">
+	  	<div class="contact__input-wrapper">
+	  		<label class="contact__label">Name</label>
+	  		<input class="contact__input" type="text" name="name">
+	  	</div>
+	    <div class="contact__input-wrapper">
+	    	<label class="contact__label">Email</label>
+		    <input class="contact__input" type="email" name="_replyto">
+	    </div>
+	    <div class="contact__input-wrapper">
+	    	<label class="contact__label">Message</label>
+	    	<textarea class="contact__input--textarea" rows="8"></textarea>
+	    </div>
+	    <input type="text" name="_gotcha" style="display:none" />
+	    <div class="contact__input-wrapper">
+	   		 <input class="button--full button--contact" type="submit" value="Send">
+	    </div>
+	    <input type="hidden" name="_next" value="http://localhost:2368/thankyou/" />
+	</form>
+</div>

@@ -1,0 +1,17 @@
+{{!< default}}
+
+{{> "site-nav"}}
+
+<div class="page__wrapper">
+	<div class="page__title">Portfolio</div>
+
+	<div class="posts__wrapper--portfolio">
+		{{#get "posts" limit="all"}}
+			{{#foreach posts }}
+
+		        {{> "post-card"}}
+
+		    {{/foreach}}
+	    {{/get}}
+	</div>
+</div>

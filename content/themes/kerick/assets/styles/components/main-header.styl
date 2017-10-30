@@ -1,0 +1,52 @@
+.header--outer
+	background-size 100%
+	display flex
+	flex-direction column
+	min-height 300px
+	padding-top 10px
+	width 100%
+.header--inner
+	align-items center
+	display flex
+	flex-direction column
+	justify-content center
+	
+.header__intro
+	color $white
+	font 50px $thin
+	line-height 60px
+	margin-bottom 10px
+.header__text
+	color $purple10
+	font 30px $regular
+	line-height 40px
+	text-transform uppercase
+	
+	
+.site-nav
+	align-items center
+	margin-bottom 40px
+	padding 10px 20px
+	width 100%
+	ul
+		display flex
+		flex-direction row
+		justify-content flex-end
+	li
+		margin-left 20px
+		margin-right 20px
+		&:last-child
+			margin-right 0
+	a
+		color $green100
+		font 14px $regular
+		letter-spacing 0.032em
+		text-transform uppercase
+		
+		-webkit-transition color 0.75s ease 0s
+		-moz-transition color 0.75s ease 0s
+		-o-transition color 0.75s ease 0s
+		transition color 0.75s ease 0
+		&:hover
+			color $green200
+			

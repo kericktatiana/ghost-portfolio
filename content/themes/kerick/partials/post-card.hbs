@@ -1,0 +1,16 @@
+<div class="post-card__wrapper {{post_class}}{{#unless feature_image}}no-image{{/unless}}">
+    <a class="post-card__link-wrapper"
+       href="{{url}}">
+
+       {{#if feature_image}}
+        <div class="post-card__image-wrapper">
+            <img class="post-card__image"
+                 src="{{feature_image}}" />
+        </div>
+       {{/if}}
+
+       <div class="post-card__title-wrapper">
+        <div class="post-card__title">{{title}}</div>
+       </div>
+    </a>
+</div>
