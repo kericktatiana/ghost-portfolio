@@ -339,6 +339,71 @@ button:focus {
 .post-card__link-wrapper:hover .post-card__title {
   color: #2c3f3d;
 }
+.post__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20%;
+}
+.post__header {
+  background: center center;
+  background-size: 100%;
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  margin-bottom: 60px;
+  position: relative;
+}
+.post__title {
+  background-color: rgba(204,203,200,0.9);
+  bottom: -30px;
+  box-shadow: 0px 6px 6px #4d2a41;
+  color: #633653;
+  display: flex;
+  font: 30px 'PermanentMarker-Regular', cursive;
+  justify-content: center;
+  letter-spacing: 1px;
+  padding: 30px 40px;
+  position: absolute;
+}
+.post__cotent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.kg-card-markdown {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.kg-card-markdown p {
+  color: #000;
+  font: 14px 'Roboto-Regular', sans-serif;
+  letter-spacing: 0.023em;
+  line-height: 20px;
+  margin-bottom: 10px;
+  width: 60%;
+}
+.kg-card-markdown p img {
+  width: 100%;
+}
+.kg-card-markdown ol,
+.kg-card-markdown ul {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.kg-card-markdown li {
+  color: #000;
+  font: 14px 'Roboto-Regular', sans-serif;
+  letter-spacing: 0.023em;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.kg-card-markdown li p {
+  width: 100%;
+}
 .page__wrapper {
   display: flex;
   flex-direction: column;
