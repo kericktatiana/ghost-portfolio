@@ -351,7 +351,7 @@ button:focus {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 20%;
+  margin-bottom: 40px;
 }
 .post__header {
   background: center center;
