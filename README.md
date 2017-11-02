@@ -1,7 +1,4 @@
 # ghost-portfolio
-Portfolio with CRUD operations managed with ghost
+Work portfolio with CRUD opertations managed with [Ghost](https://ghost.org/)
 
-
-``ghost start --development``
-
-``content/themes/kerick/assets/styles/styles.styl -o content/themes/kerick/assets/styles/styles.css``
+View: http://tatianakerick.com/
